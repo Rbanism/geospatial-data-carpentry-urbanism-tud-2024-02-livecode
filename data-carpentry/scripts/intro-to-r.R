@@ -36,4 +36,4 @@ combined_vector <- c(abcd_vector, numeric_vector)
 
 #missing values
 
-with_na <- c(1, 2, 1, 1, NA)
+with_na <- c(1, 2, 1, 1, NA, 3, NA)
