@@ -31,14 +31,4 @@ ggplot(data = boundary_Delft) +
   labs(title = "Delft Administrative Boundary") +
   coord_sf(datum = st_crs(28992))
 
-lines_Delft <- st_read(here("data", "delft-streets.shp"))
-point_Delft <- st_read(here("data", "delft-leisure.shp"))
-
-st_geometry_type(lines_Delft)
-st_geometry_type(point_Delft)
-
-st_crs(lines_Delft)
-st_crs(point_Delft)
-
-st_bbox(lines_Delft)
-st_bbox(point_Delft)
+library(here)
