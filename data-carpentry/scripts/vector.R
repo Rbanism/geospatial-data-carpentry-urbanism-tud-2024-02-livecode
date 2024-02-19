@@ -48,3 +48,8 @@ st_bbox(point_Delft)
 
 lines_Delft
 point_Delft
+
+# Examine attributes
+
+
+
