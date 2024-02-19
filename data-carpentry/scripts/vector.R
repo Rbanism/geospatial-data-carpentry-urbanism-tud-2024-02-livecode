@@ -160,5 +160,11 @@ st_crs(boundary_Delft)$epsg
 
 boundary_Delft <- st_transform(boundary_Delft, 28992)
   
-st_crs(boundary_Delft)$epsg  
+st_crs(boundary_Delft)$epsg
+
+
+
+ggplot() +
+  geom_sf(data = country_boundary_NL,
+          linewidth)
   
