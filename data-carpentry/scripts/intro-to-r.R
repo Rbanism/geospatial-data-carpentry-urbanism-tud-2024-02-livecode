@@ -83,3 +83,4 @@ summary(gapminder)
 
 nrow(gapminder)
 ncol(gapminder)
+
