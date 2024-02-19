@@ -120,7 +120,10 @@ ggplot(data = lines_Delft_selection) +
 # Combine multiple layers
 
 ggplot() +
-  geom_sf(data = )
+  geom_sf(data = boundary_Delft,
+          fill = "lightgrey",
+          color = "lightgrey") +
+  
 
 
 
