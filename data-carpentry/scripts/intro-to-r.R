@@ -58,15 +58,9 @@ nlevels(nordic_cat)
 nordic_cat <- factor(nordic_cat, levels = c('Norway', 'Denmark', 'Sweden'))
 nordic_cat
 
-nordic_cat3 <- c(nordic_cat, 'Iceland')
-
-str(nordic_cat3)
-nordic_str
 nordic_cat2 <- factor(nordic_str, levels = c('Norway', 'Denmark'))
 nordic_cat2
 unique(nordic_str)
-str(nordic_cat)
-nordic_str
 
 nordic_str <- c(nordic_str, "Iceland")
 nordic_str
