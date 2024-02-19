@@ -173,4 +173,17 @@ ggplot() +
           fill = "purple") +
   labs(title = "Map of contiguous NL municipal boundaries") +
   coord_sf(datum = st_crs(28992))
-  
+
+# Last challenge
+
+boundary_ZH <- municipal_boundary_NL %>% 
+  filter(ligtInPr_1 == "Zuid-Holland")
+
+ggplot() +
+  geom_sf(data = boundary_ZH, aes(color ="color"), show.legend = "line") +
+  scale_color_manual(name = "", labels = "Municipal Boundaries", values = c("color" = "gray18")) +
+  geom_sf(data = boundary_Delft, aes(shape = "shape"), color = "purple", fill = "purple") +
+  scale_shape_manual(name = "", labels = "Municipality of Delft", values = c("shape" = 19)) +
+  ggtitle("Delft location in South Holland") +
+  theme(legend.background = element_rect(color = NA)) +
+  coord_sf()
