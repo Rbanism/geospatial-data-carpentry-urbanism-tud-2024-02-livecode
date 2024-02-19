@@ -81,5 +81,5 @@ head(gapminder)
 
 summary(gapminder)
 
-
-
+nrow(gapminder)
+ncol(gapminder)
