@@ -54,3 +54,5 @@ nordic_cat <- factor(nordic_str)
 nordic_cat
 levels(nordic_cat)
 nlevels(nordic_cat)
+
+nordic_cat <- factor(nordic_cat, levels = c())
