@@ -98,4 +98,5 @@ country_year_gdp <- gapminder %>%
 head(country_year_gdp)
 
 gapminder %>% 
-  filter(counti)
+  filter(continent != 'Europe' & year ==2007) %>% 
+  
