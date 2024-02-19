@@ -91,7 +91,7 @@ nrow(cycleway_Delft)
 cycleway_Delft <- cycleway_Delft %>%
   mutate(length = st_length(.))
 
-
+cycleway_Delft
 
 
 
