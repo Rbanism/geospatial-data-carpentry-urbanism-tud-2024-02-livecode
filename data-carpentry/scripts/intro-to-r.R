@@ -124,4 +124,6 @@ gapminder %>%
   summarise(av_lifeExp = mean(lifeExp)) %>% 
   filter(av_lifeExp== min(av_lifeExp)| av_lifeExp == max(av_lifeExp))
 
-  
+gapminder %>% 
+  group_by(continent, year) %>% 
+  summarise(av_gdpPercap = )
