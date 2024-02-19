@@ -188,4 +188,6 @@ ggplot() +
   theme(legend.background = element_rect(color = NA)) +
   coord_sf()
 
-# Sav
+# Exporting a shapefile
+
+st_write()
