@@ -117,5 +117,7 @@ ggplot(data = lines_Delft_selection) +
   scale_color_manual(values = road_colors) +
   coord_sf(datum = st_crs(28992))
 
+# Combine multiple layers
+
 
 
