@@ -21,4 +21,5 @@ y <- sqrt(x)
 numeric_vector <- c(2, 6, 3)
 str(numeric_vector)
 
-character_vector <- c('Amsterdam', 'Rotterdam', ''s-Gravenhage'  )
+character_vector <- c('Amsterdam', 'Rotterdam', "'s-Gravenhage" )
+str(character_vector)
