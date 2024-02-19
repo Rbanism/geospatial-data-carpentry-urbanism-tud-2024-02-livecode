@@ -91,7 +91,8 @@ nrow(cycleway_Delft)
 cycleway_Delft <- cycleway_Delft %>%
   mutate(length = st_length(.))
 
-cycleway_Delft
+cycleway_Delft %>%
+  summarise(total_legth = sum(length))
 
 
 
