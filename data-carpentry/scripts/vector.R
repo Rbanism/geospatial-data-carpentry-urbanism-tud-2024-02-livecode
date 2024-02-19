@@ -1,4 +1,4 @@
 library(tidyverse)
 library(sf)
 
-boundary_Delft < - st_read("date/delft-boundary.shp", quiet = TRUE)
+boundary_Delft < - st_read("data/delft-boundary.shp", quiet = TRUE)
