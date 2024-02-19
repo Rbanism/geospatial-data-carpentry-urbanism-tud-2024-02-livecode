@@ -13,4 +13,4 @@ download.file('https://bit.ly/geospatial_data',
 1*100
 1/100
 
-x <-
+x <- 1/40
