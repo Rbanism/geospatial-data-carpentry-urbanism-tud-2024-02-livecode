@@ -58,6 +58,8 @@ nlevels(nordic_cat)
 nordic_cat <- factor(nordic_cat, levels = c('Norway', 'Denmark', 'Sweden'))
 nordic_cat
 
+
+
 nordic_str
 nordic_cat2 <- factor(nordic_str, levels = c('Norway', 'Denmark'))
 nordic_cat2
