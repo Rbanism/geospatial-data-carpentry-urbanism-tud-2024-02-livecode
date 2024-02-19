@@ -93,5 +93,5 @@ country_year_gdp <-select(gapminder, country, year, gdpPercap)
 head(country_year_gdp)
 
 # Pipe %>% 
-country_year_gdp <- gapminder
+country_year_gdp <- gapminder %>% 
 
