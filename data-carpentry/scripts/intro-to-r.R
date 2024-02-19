@@ -51,3 +51,4 @@ nordic_str <- c('Norway', 'Sweden', 'Norway', 'Denmark', 'Sweden')
 nordic_str
 
 nordic_cat <- factor(nordic_str)
+nordic_cat
