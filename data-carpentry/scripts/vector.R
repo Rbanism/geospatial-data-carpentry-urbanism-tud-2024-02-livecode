@@ -120,6 +120,7 @@ ggplot(data = lines_Delft_selection) +
 # Combine multiple layers
 
 ggplot() +
+  geom_sf()
 
 
 
