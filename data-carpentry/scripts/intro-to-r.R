@@ -72,6 +72,7 @@ nordic_str
 
 # Explore Data
 
+gapmindee <- rea.csv()
 
 
 
