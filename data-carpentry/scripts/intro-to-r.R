@@ -101,3 +101,4 @@ country_year_gdp_euro <- gapminder %>%
   filter(continent != 'Europe' & year ==2007) %>% 
   select(country, year, gdpPercap)
 head(country_year_gdp_euro)
+
