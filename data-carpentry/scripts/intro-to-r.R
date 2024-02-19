@@ -111,3 +111,4 @@ nrow(country_year_gdp_eurasia)
 gapminder %>% 
   group_by(continent) %>% 
   summarise(av_gdpPercap = mean(gdpPercap))
+
