@@ -98,4 +98,4 @@ country_year_gdp <- gapminder %>%
 head(country_year_gdp)
 
 gapminder %>% 
-  filter()
+  filter(counti)
