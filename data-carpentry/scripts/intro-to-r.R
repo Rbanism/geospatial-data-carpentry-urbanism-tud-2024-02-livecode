@@ -121,5 +121,6 @@ min_max
 
 gapminder %>% 
   group_by(country) %>% 
-  summarise(av_lifeExp = mean(lifeExp)) 
+  summarise(av_lifeExp = mean(lifeExp)) %>% 
+  filter(av_lifeExp== min(av_lifeExp)| av_lifeExp == max(av_lifeExp))
   
