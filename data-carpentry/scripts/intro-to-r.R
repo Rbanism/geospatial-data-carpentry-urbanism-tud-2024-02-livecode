@@ -24,4 +24,4 @@ str(numeric_vector)
 character_vector <- c('Amsterdam', 'Rotterdam', "'s-Gravenhage" )
 str(character_vector)
 
-logical_vector <- c(TRUE, FALSE, TRUE)
+logical_vector <- c("TRUE", FALSE, TRUE)
