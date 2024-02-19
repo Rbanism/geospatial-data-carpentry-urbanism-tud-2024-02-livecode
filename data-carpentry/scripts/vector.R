@@ -143,6 +143,13 @@ municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
 country_boundary_NL <- st_read("data/nl-boundary.shp")
 
 ggplot() +
-  geom_sf(data = country_boundary_NL)
+  geom_sf(data = country_boundary_NL,
+          color = "gray18",
+          linewidth = 2) +
+  geom_sf(data = municipal_boundary_NL,
+          color = "grey40") +
+  labs(title = "Map of Contiguous NL Municial Boundaries") +
+  coord_sf(datum = st_crs(28992))
+  
 
 
