@@ -86,8 +86,7 @@ cycleway_Delft <- lines_Delft %>%
   filter(highway == "cycleway")
 
 nrow(lines_Delft)
-
-
+nrow(cycleway_Delft)
 
 
 
