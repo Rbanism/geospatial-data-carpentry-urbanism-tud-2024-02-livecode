@@ -190,4 +190,8 @@ ggplot() +
 
 # Exporting a shapefile
 
-st_write()
+st_write(boundary_ZH,
+         "data_output/boundary_ZH.shp",
+         driver = "ESRI Shapefile")
+
+
