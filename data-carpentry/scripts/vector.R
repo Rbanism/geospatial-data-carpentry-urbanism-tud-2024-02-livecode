@@ -104,8 +104,9 @@ ggplot(data = cycleway_Delft) +
 
 unique(lines_Delft$highway)
 
-road_types <- c("motorway", "primary", "secondary", "cyleway")
+road_types <- c("motorway", "primary", "secondary", "cycleway")
 
+lines_Delft_selection <- 
 
 
 
