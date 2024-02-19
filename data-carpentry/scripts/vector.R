@@ -56,3 +56,5 @@ lines_Delft
 ncol(lines_Delft)
 
 names(lines_Delft)
+
+head(lines_Delft)
