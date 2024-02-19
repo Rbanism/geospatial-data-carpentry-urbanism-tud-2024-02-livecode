@@ -66,3 +66,13 @@ nordic_str <- c(nordic_str, "Iceland")
 nordic_str
 
 
+
+######### Coffee break
+
+
+
+
+
+
+
+
