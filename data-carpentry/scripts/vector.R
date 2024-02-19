@@ -187,3 +187,5 @@ ggplot() +
   ggtitle("Delft location in South Holland") +
   theme(legend.background = element_rect(color = NA)) +
   coord_sf()
+
+# Sav
