@@ -1,4 +1,4 @@
 print('hello world')
 
 
-instal
+install.packages()
