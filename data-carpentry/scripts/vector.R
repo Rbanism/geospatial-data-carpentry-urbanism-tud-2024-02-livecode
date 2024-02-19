@@ -59,4 +59,6 @@ names(lines_Delft)
 
 head(lines_Delft)
 
+lines_Delft$highway
+
 head(lines_Delft$highway, 10)
