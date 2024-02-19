@@ -32,6 +32,8 @@ ab_vector <- c('a', 'b')
 ab_vector
 
 abcd_vector <- c(ab_vector, 'c', 'd')
-
 combined_vector <- c(abcd_vector, numeric_vector)
 
+#missing values
+
+with_na <-
