@@ -100,6 +100,10 @@ ggplot(data = cycleway_Delft) +
        subtitle = "Cycleways") +
   coord_sf(datum = st_crs(28992))
 
+# Customize plots
+
+
+
 
 
 
