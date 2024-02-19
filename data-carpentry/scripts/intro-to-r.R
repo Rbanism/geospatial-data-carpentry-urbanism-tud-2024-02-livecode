@@ -126,4 +126,42 @@ gapminder %>%
 
 gapminder %>% 
   group_by(continent, year) %>% 
-  summarise(av_gdpPercap = )
+  summarise(av_gdpPercap = mean(gdpPercap),
+            sd_gdpPercap = sd(gdpPercap),
+            n_obs = n())
+
+gapminder %>% 
+  group_by(continent, year) %>% 
+  count()
+
+gapminder %>% 
+  mutate(gdpBillion = gdpPercap*pop/10^6) %>% 
+  head()
+
+# Data visualisation
+
+ggplot(gapminder, aes(x = lifeExp))+
+  geom_histogram()
+
+library(viridisLite)
+gapminder %>% 
+  filter(year ==2007 & continent== "Americas") %>%
+  mutate(country= fct_reorder(country, gdpPercap)) %>% 
+  ggplot(aes(x = country, y= gdpPercap, fill= lifeExp))+
+  geom_col()+
+  coord_flip()+
+  scale_fill_viridis_c()
+
+p<- gapminder %>% 
+  filter(year==2007 & continent== 'Americas') %>% 
+  mutate(country= fct_reorder(country, gdpPercap),
+         lifeExpCat = if_else(lifeExp>= mean(lifeExp), 'high', 'low')) %>% 
+  ggplot(aes(x = country, y= gdpPercap, fill= lifeExpCat))+
+  geom_col()+
+  coord_flip()
+
+ggsave(p, filename= here('fig_output', "Plot.png"))
+
+?
+
+
