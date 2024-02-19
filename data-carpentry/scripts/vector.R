@@ -121,10 +121,6 @@ ggplot(data = lines_Delft_selection) +
 
 leisure_colors <- rainbow(15)
 
-[1] "#FF0000" "#FF6600" "#FFCC00" "#CCFF00" "#66FF00" "#00FF00"
-[7] "#00FF66" "#00FFCC" "#00CCFF" "#0066FF" "#0000FF" "#6600FF"
-[13] "#CC00FF" "#FF00CC" "#FF0066"
-
 ggplot() +
   geom_sf(data = boundary_Delft,
           fill = "lightgrey",
