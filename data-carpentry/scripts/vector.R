@@ -66,3 +66,5 @@ head(lines_Delft$highway, 10)
 unique(lines_Delft$highway)
 
 levels(factor(lines_Delft$highway))
+
+
