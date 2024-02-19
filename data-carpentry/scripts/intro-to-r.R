@@ -19,3 +19,4 @@ sqrt(x)
 y <- sqrt(x)
 
 numeric_vector <- c(2, 6, 3)
+str()
