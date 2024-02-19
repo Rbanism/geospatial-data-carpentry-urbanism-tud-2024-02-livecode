@@ -16,3 +16,4 @@ st_crs(boundary_Delft)$epsg
 
 st_bbox(boundary_Delft)
 
+st_crs(b)
