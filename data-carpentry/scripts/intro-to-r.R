@@ -71,8 +71,9 @@ nordic_str
 
 
 # Explore Data
-
-gapminder <- read.csv()
+library(here)
+here
+gapminder <- read.csv(here('data', 'gapminder_data.csv'))
 
 
 
