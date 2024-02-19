@@ -64,3 +64,6 @@ nordic_cat2
 unique(nordic_str)
 str(nordic_cat)
 nordic_str
+
+nordic_str <- c(nordic_str, "Iceland")
+nordic_str
