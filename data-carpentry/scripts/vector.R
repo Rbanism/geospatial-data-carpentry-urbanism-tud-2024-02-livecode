@@ -82,9 +82,10 @@ names(point_Delft)
 
 # Subsetting features
 
-lines_Delft %>%
+cycleway_Delft <- lines_Delft %>%
   filter(highway == "cycleway")
 
+nrow(lines_Delft)
 
 
 
