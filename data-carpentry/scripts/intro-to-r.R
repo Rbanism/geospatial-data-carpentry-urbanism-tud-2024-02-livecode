@@ -10,3 +10,4 @@ download.file('https://bit.ly/geospatial_data',
               here('data', 'gapminder_data.csv'))
 
 1+100
+1*100
