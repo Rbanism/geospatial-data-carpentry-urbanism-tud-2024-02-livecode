@@ -7,4 +7,4 @@ here()
 
 
 download.file('https://bit.ly/geospatial_data', 
-              here('data-carpentry/data', 'gapminder_data.csv'))
+              here('data-carpentry', 'data', 'gapminder_data.csv'))
