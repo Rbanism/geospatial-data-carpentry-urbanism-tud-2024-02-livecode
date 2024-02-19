@@ -91,3 +91,5 @@ str(country_vec)
 library(tidyverse)
 country_year_gdp <-select(gapminder, country, year, gdpPercap)
 head(country_year_gdp)
+
+# Pipe %>% 
