@@ -158,7 +158,7 @@ boundary_Delft <- st_read("data/delft-boundary.shp")
 
 st_crs(boundary_Delft)$epsg
 
-boundary_Delft <- st_transform()
+boundary_Delft <- st_transform(boundary_Delft, 28992)
   
-  
+st_crs(boundary_Delft)$epsg  
   
