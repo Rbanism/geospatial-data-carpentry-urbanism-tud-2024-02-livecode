@@ -18,4 +18,4 @@ x
 sqrt(x)
 y <- sqrt(x)
 
-numeric_vector <- c()
+numeric_vector <- c(2, 6, 3)
