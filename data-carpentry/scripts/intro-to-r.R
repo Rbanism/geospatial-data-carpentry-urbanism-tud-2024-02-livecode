@@ -103,4 +103,4 @@ country_year_gdp_euro <- gapminder %>%
 head(country_year_gdp_euro)
 
 country_year_gdp_eurasia <- gapminder %>% 
-  filter( )
+  filter( continent== "Europe" )
