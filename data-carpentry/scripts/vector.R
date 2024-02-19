@@ -88,6 +88,8 @@ cycleway_Delft <- lines_Delft %>%
 nrow(lines_Delft)
 nrow(cycleway_Delft)
 
+cycleway_Delft %>%
+  mutate(length = st_length(.))
 
 
 
