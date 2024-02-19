@@ -45,3 +45,4 @@ is.na(with_na)
 !is.na(with_na)
 sum(!is.na(with_na))
 
+#factors
