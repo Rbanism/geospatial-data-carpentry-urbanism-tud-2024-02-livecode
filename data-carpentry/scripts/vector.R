@@ -139,7 +139,7 @@ ggplot() +
 
 # Handling spatial projections & CRS
 
-
+municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
 
   
 
