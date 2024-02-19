@@ -80,7 +80,10 @@ names(point_Delft)
 
 
 
-# 
+# Subsetting features
+
+lines_Delft %>%
+  filter(highway == )
 
 
 
