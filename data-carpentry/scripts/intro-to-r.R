@@ -48,3 +48,4 @@ sum(!is.na(with_na))
 #factors
 
 nordic_str <- c('Norway', 'Sweden', 'Norway', 'Denmark', 'Sweden')
+nordic_str
