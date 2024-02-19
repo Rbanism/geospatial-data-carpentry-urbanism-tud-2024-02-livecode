@@ -135,8 +135,7 @@ ggplot() +
   scale_fill_manual(values = leisure_colors,
                     name = "Leisure Locations") +
   labs(title = "Mobility network and leisure in Delft") +
-  coord_sf(datum = st_crs(28992)) +
-  theme_bw()
+  coord_sf(datum = st_crs(28992))
 
   
 
