@@ -126,7 +126,8 @@ ggplot() +
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) +
   geom_sf(data = point_Delft,
-          aes(fill = leisure))
+          aes(fill = leisure)) +
+  
   
 
 
