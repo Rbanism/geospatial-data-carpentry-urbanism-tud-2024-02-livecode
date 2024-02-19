@@ -102,7 +102,7 @@ ggplot(data = cycleway_Delft) +
 
 # Customize plots
 
-
+unique(lines_Delft$highway)
 
 
 
