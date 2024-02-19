@@ -65,6 +65,4 @@ unique(nordic_str)
 nordic_str <- c(nordic_str, "Iceland")
 nordic_str
 
-test
-
 
