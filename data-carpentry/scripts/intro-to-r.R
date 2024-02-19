@@ -105,3 +105,5 @@ head(country_year_gdp_euro)
 country_year_gdp_eurasia <- gapminder %>% 
   filter( continent== "Europe" | continent =="Asia") %>% 
   select(year, country, lifeExp)
+
+nrow(country_year_gdp_eurasia)
