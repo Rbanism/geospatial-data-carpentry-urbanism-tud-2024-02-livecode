@@ -77,3 +77,14 @@ head(point_Delft, 10)
 point_Delft
 
 names(point_Delft)
+
+
+
+# 
+
+
+
+
+
+
+
