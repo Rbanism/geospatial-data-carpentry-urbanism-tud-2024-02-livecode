@@ -67,7 +67,7 @@ unique(lines_Delft$highway)
 
 levels(factor(lines_Delft$highway))
 
-## Challenge
+## Challenge 2
 ncol(point_Delft)
 ncol(boundary_Delft)
 
