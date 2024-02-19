@@ -119,6 +119,8 @@ ggplot(data = lines_Delft_selection) +
 
 # Combine multiple layers
 
+leisure_colors <- rainbow(15)
+
 ggplot() +
   geom_sf(data = boundary_Delft,
           fill = "lightgrey",
