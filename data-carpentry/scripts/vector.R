@@ -162,9 +162,15 @@ boundary_Delft <- st_transform(boundary_Delft, 28992)
   
 st_crs(boundary_Delft)$epsg
 
-
-
 ggplot() +
   geom_sf(data = country_boundary_NL,
-          linewidth)
+          linewidth = 2,
+          color = "gray18") +
+  geom_sf(data = municipal_boundary_NL,
+          color = "gray40") +
+  geom_sf(data = boundary_Delft,
+          color = "purple",
+          fill = "purple") +
+  labs(title = "Map of contiguous NL municipal boundaries") +
+  coord_sf(datum = st_crs(28992))
   
