@@ -154,4 +154,5 @@ ggplot() +
 st_crs(municipal_boundary_NL)$epsg
 st_crs(country_boundary_NL)$epsg
 
+boundary_Delft <- st_read("data/delft-boundary.shp")
 
