@@ -107,3 +107,4 @@ country_year_gdp_eurasia <- gapminder %>%
   select(year, country, lifeExp)
 
 nrow(country_year_gdp_eurasia)
+
