@@ -19,3 +19,4 @@ buildings <- opq(bbox = bb) %>%
 
 str(buildings)
 
+build
