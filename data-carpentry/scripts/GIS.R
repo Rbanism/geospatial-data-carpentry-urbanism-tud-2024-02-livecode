@@ -104,4 +104,6 @@ ggplot() +
   geom_sf(data = united_buffer, aes(fill=ID)) +
   geom_sf(data = buildings_centroids)
 
+# intersection
 
+st_intersection(buildings_centroids)
