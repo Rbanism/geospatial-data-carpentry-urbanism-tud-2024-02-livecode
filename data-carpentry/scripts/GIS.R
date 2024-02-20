@@ -96,6 +96,6 @@ united_buffer <- united_buffer %>%
 buildings_centroids <- st_centroid(old_buildings_polygons) %>%
   st_transform(., crs=28992)
 
-crs()
+st_crs(buildings_centroids)
 ggplot(data = buildings_centroids) +
   geom_sf()
