@@ -112,4 +112,6 @@ ggplot() +
 DTM_TUD <- rast("data/tud-dtm-5m-hill.tif")
 DTM_hill_TUD <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
+DTM_TUD_df <- as.data.frame(DTM_TUD, xy = TRUE)
+DTM_hill_TUD_DF <- as.data.frame(DTM_hill_TUD, xy = TRUE)
 
