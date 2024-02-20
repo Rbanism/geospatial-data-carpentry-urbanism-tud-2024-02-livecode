@@ -148,3 +148,4 @@ res(DTM_hill_EPSG28992_TUD)
 res(DTM_TUD)
 
 ext(DTM_hill_EPSG28992_TUD)
+ext(DTM_TUD)
