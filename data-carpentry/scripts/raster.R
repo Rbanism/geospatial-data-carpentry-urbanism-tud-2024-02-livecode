@@ -179,3 +179,4 @@ ggplot() +
 
 # Multi-band rasters
 
+RGB_band1_TUD <- 
