@@ -40,6 +40,7 @@ ggplot(data = buildings_polygons) +
 
 
 buildings_polygons <- buildings$osm_polygons %>%
+  st_transform()
 
 
 
