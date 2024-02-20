@@ -10,5 +10,5 @@ nominatim_polygon <- geo_lite_sf("Brielle",
 bb <- st_bbox(nominatim_polygon)
 bb
 
-
+#install.packages("osmdata")
 library(osmdata)
