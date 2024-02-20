@@ -100,6 +100,6 @@ st_crs(buildings_centroids)
 
 
 
-ggplot(data = buildings_centroids) +
+ggplot() +
   geom_sf() +
   geom_sf()
