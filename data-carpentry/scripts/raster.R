@@ -109,6 +109,6 @@ ggplot() +
 
 # Dealing with different CRS
 
-DTM_TUD <- 
+DTM_TUD <- rast("data/tud-dtm")
 
 
