@@ -15,5 +15,5 @@ library(osmdata)
 
 opq(bb) %>%
   add_osm_feature() %>%
-  osmda
+  osmdata_sf()
 
