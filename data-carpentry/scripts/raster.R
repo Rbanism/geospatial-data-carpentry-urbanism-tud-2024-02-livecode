@@ -179,4 +179,7 @@ ggplot() +
 
 # Multi-band rasters
 
-RGB_band1_TUD <- 
+RGB_band1_TUD <- rast("data/tudlib-rgb.tif", lyrs = 1)
+  
+  
+  
