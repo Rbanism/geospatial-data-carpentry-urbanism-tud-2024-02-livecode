@@ -151,4 +151,4 @@ ext(DTM_hill_EPSG28992_TUD)
 ext(DTM_TUD)
 
 ggplot() +
-  geom_raster()
+  geom_raster(data = DTM)
