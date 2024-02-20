@@ -49,7 +49,8 @@ leaflet(buildings_polygons) %>%
     providers$CartoDB.Positron) %>%
   addPolygons(color="#444444",weight=0.1,
     fillColor = ~colorQuantile("YlGnBu",
-                               -new_date)(-new_date)
+                               -new_date)(
+                                 -new_date)
   )
 
 
