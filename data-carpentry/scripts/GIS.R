@@ -130,4 +130,4 @@ ggplot() +
   geom_sf(data = conservation_zones,
           aes(fill = n_old_buildings), 
           colour = NA) +
-  scale_
+  scale_fill_viri
