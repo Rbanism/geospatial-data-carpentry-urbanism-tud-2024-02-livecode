@@ -72,7 +72,7 @@ old_buildings_polygons <- old_buildings_polygons %>%
 
 # Buffer
 buffer <- st_buffer(x = old_buildings_polygons,
-                    dist = 500)
+                    dist = distance)
 
 ggplot(data = buffer) +
   geom_sf()
