@@ -32,7 +32,7 @@ buildings_polygons$new_date <-
 
 
 ggplot(data = buildings_polygons) +
-  geom_sf(aes(fill = start_date,
+  geom_sf(aes(fill = new,
               colour = start_date))
 
 
