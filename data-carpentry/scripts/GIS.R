@@ -13,7 +13,7 @@ bb
 #install.packages("osmdata")
 library(osmdata)
 
-opq(bbox = bb) %>%
+buildingopq(bbox = bb) %>%
   add_osm_feature(key = "building") %>%
   osmdata_sf()
 
