@@ -18,5 +18,4 @@ DSM_TUD
 
 # retrieve general info on the raster
 
-
 summary(DSM_TUD)
