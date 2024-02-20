@@ -20,3 +20,6 @@ DSM_TUD
 #it gives back values based on a random sample
 
 summary(DSM_TUD)
+
+
+summary(values(DSM_TUD))
