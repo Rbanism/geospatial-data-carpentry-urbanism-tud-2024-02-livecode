@@ -106,5 +106,6 @@ ggplot() +
 
 # intersection
 
-intersectst_intersection(buildings_centroids,
+intersected_buffer <- st_intersection(
+  buildings_centroids,
                 united_buffer)
