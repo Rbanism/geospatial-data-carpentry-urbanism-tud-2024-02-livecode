@@ -87,4 +87,5 @@ ggplot(data = united_buffer) +
 
 str(united_buffer)
 
-united_buffer %>% united_buffer
+united_buffer <- united_buffer %>%
+  mutate()
