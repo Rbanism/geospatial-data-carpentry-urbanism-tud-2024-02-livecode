@@ -130,4 +130,4 @@ ggplot() +
   geom_raster(data = DTM_TUD_df,
               aes(x = x, y = y,
                   fill = `tud-dtm-5m`)) +
-  
+  coord_quickmap()
