@@ -88,4 +88,4 @@ ggplot(data = united_buffer) +
 str(united_buffer)
 
 united_buffer <- united_buffer %>%
-  mutate(ID = )
+  mutate(ID = 1:nrow(united_buffer))
