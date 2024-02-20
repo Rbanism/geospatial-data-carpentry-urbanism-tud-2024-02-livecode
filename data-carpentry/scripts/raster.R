@@ -140,4 +140,4 @@ ggplot() +
 
 # reproject a raster
 
-DTM_hill_EPSG28992_TUD <- 
+DTM_hill_EPSG28992_TUD <- project()
