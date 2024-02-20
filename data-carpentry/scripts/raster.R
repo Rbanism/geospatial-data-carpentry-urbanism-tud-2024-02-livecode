@@ -135,4 +135,5 @@ ggplot() +
 ggplot() +
   geom_raster(data = DTM_hill_TUD_df,
               aes(x = x, y = y,
-                  alpha = ``))
+                  alpha = `tud-dtm-5m-hill`)) +
+  coord_quickmap()
