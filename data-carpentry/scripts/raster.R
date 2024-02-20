@@ -167,3 +167,4 @@ ggplot() +
 # Raster calculations
 
 CHM_TUD <- DSM_TUD - DTM_TUD
+CHM_TUD
