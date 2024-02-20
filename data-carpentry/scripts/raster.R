@@ -12,3 +12,4 @@ describe("data/tud-dsm-5m.tif")
 # load raster data
 
 DSM_TUD <- rast("data/tud-dsm-5m.tif")
+
