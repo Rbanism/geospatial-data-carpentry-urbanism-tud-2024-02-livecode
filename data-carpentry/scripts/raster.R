@@ -150,7 +150,8 @@ res(DTM_TUD)
 ext(DTM_hill_EPSG28992_TUD)
 ext(DTM_TUD)
 
-DTM_hill_EPSG28992_TUD_df <- as.data.frame(DTM_hill_EPSG28992_TUD)
+DTM_hill_EPSG28992_TUD_df <- as.data.frame(DTM_hill_EPSG28992_TUD,
+                                           xy = TRUE)
 
 ggplot() +
   geom_raster(data = DTM_TUD_df,)
