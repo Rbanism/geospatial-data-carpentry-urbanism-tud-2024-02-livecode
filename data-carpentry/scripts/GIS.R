@@ -119,4 +119,5 @@ ggplot(data = centroids_by_buffer) +
 
 str(centroids_by_buffer)
 
-conver
+conservation_zones <-  united_buffer %>%
+  
