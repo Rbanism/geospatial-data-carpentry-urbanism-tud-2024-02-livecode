@@ -24,7 +24,7 @@ buildings_polygons <- buildings$osm_polygons %>%
 
 str(buildings_polygons)
 
-building
+buildings_polygons$start_date <- 
 
 ggplot(data = buildings_polygons) +
   geom_sf(aes(fill = start_date,
