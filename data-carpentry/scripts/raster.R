@@ -28,5 +28,5 @@ summary(values(DSM_TUD))
 
 # transform the raster into df
 
-DSM_TUD_df <- as.data.frame()
+DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 
