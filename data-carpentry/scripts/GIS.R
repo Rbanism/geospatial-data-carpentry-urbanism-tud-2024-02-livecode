@@ -39,8 +39,8 @@ ggplot(data = buildings_polygons) +
   scale_colour_viridis_c(option ="viridis")
 
 
-buildings_polygons <- buildings_polygons %>%
-  st_transform(.,crs = "4326")
+buildings_polygons <- st_transform(
+    buildings_polygons,crs = "4326")
 
 library(leaflet)
 
