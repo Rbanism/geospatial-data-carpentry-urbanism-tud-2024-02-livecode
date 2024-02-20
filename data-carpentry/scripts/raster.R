@@ -73,4 +73,5 @@ ggplot() +
 
 # plot raster data!
 
-DSM_TUD_df 
+DSM_TUD_df %>%
+  
