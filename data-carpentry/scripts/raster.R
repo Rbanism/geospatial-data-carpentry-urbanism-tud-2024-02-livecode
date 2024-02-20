@@ -123,4 +123,5 @@ ggplot() +
               aes(x = x, y = y,
                   alpha = `tud-dtm-5m-hill`)) +
   scale_fill_gradientn(name = "Elevation",
-                       )
+                       colors = terrain.colors(10)) +
+  coord_quickmap()
