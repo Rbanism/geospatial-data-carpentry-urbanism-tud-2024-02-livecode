@@ -39,7 +39,7 @@ ggplot(data = buildings_polygons) +
   scale_colour_viridis_c(option ="viridis")
 
 
-buildings_polygons 
+buildings_polygons <- 
 
 
 
