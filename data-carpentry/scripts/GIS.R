@@ -7,4 +7,4 @@ library(sf)
 nominatim_polygon <- geo_lite_sf("Brielle",
                                  points_only = FALSE) 
 
-st_bbox(nominatim_polygon)
+bb <- st_bbox(nominatim_polygon)
