@@ -81,4 +81,6 @@ ggplot(data = buffer) +
 united_buffer <- st_union(buffer) %>%
   st_cast(to = "POLYGON") %>%
   st_as_sf()
+
+ggplot()
 str(united_buffer)
