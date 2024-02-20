@@ -35,7 +35,7 @@ buildings_polygons$new_date <- if_else(
 ggplot(data = buildings_polygons) +
   geom_sf(aes(fill = new_date,
               colour = new_date)) +
-  scale_fill_viridis_c(op)
+  scale_fill_viridis_c(options="viridis")
 
 
 
