@@ -14,6 +14,6 @@ bb
 library(osmdata)
 
 opq(bb) %>%
-  add_osm_feature() %>%
+  add_osm_feature(key = "building") %>%
   osmdata_sf()
 
