@@ -101,5 +101,5 @@ st_crs(buildings_centroids)
 
 
 ggplot() +
-  geom_sf(data = united_buffer) +
+  geom_sf(data = united_buffer, aes(fill=ID)) +
   geom_sf(data = buildings_centroids)
