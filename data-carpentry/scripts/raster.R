@@ -99,4 +99,8 @@ ggplot() +
   geom_bar(data = DSM_TUD_df, aes(fct_elevation_cb))
 
 
+# plot raster
 
+ggplot() +
+  geom_raster(data = DSM_TUD_df, aes())
+  
