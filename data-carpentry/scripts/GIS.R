@@ -44,7 +44,8 @@ buildings_polygons <- buildings_polygons %>%
 
 library(leaflet)
 
-leaflet(buildings_polygons)
+leaflet(buildings_polygons) %>%
+  add
 
 
 
