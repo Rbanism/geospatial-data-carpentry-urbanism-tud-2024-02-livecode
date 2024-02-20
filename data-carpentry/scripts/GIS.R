@@ -57,7 +57,8 @@ leaflet(buildings_polygons) %>%
 
 #### Part 2 - GIS functions
 
-buildings_polygons 
+buildings_polygons %>%
+  mutate(isOld)
 
 
 
