@@ -4,4 +4,5 @@ library(tidyverse)
 library(sf)
 
 
-geo_lite_sf("Brielle") 
+nominatim_polygon <- geo_lite_sf("Brielle",
+                                 ) 
