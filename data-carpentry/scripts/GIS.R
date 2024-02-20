@@ -68,5 +68,6 @@ ggplot(data = old_buildings_polygons) +
 old_buildings_polygons <- old_buildings_polygons %>%
   st_transform(.,crs=28992)
 
-buffer <- st_buff
+buffer <- st_buffer(x = ,
+                    dist = )
 
