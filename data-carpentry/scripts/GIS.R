@@ -126,5 +126,5 @@ conservation_zones <-  united_buffer %>%
 ### final output
 
 ggplot() +
-  geom_sf(data = ) +
+  geom_sf(data = buildings_polygons) +
   geom_sf()
