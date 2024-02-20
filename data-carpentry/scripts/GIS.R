@@ -73,3 +73,4 @@ buffer <- st_buffer(x = old_buildings_polygons,
 
 ggplot(data = buffer) +
   geom_sf()
+
