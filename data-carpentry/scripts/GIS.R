@@ -18,3 +18,4 @@ buildings <- opq(bbox = bb) %>%
   osmdata_sf()
 
 str(buildings)
+
