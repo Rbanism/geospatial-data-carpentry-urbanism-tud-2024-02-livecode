@@ -76,6 +76,7 @@ ggplot() +
 DSM_TUD_df <- DSM_TUD_df %>%
   mutate(fct_elevation = cut(`tud-dsm-5m`, breaks = 3))
 
-
+ggplot()+
+  geom_
 
 
