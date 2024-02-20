@@ -22,7 +22,7 @@ str(buildings)
 buildings_polygons <- buildings$osm_polygons %>%
   st_transform(.,crs=28992)
 
-ggplot() +
+ggplot(data = buildings_polygons) +
   geom_sf()
 
 
