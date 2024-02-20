@@ -60,6 +60,7 @@ leaflet(buildings_polygons) %>%
 old_buildings_polygons <- buildings_polygons %>%
   mutate(isOld = if_else(start_date <= 1800,
                         1,0)) %>%
+  filter()
 
 
 
