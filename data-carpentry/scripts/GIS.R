@@ -78,5 +78,5 @@ ggplot(data = buffer) +
 
 
 # Union
-united_buffer <- 
+united_buffer <- st_union()
 
