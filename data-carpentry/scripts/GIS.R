@@ -62,3 +62,4 @@ leaflet(buildings_polygons) %>%
 
 
 
+
