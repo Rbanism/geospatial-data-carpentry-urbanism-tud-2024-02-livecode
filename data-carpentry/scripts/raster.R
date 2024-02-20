@@ -71,7 +71,7 @@ ggplot() +
   geom_histogram(data = DSM_TUD_df, aes(`tud-dsm-5m`))
 
 
-# plot raster data!
+# plot raster data! 
 
 DSM_TUD_df <- DSM_TUD_df %>%
   mutate(fct_elevation = cut(`tud-dsm-5m`, breaks = 3))
