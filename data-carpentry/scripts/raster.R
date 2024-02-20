@@ -50,5 +50,13 @@ crs(DSM_TUD, proj = TRUE)
 
 minmax(DSM_TUD)
 
+# store min and max in metadata
+
 DSM_TUD <- setMinMax(DSM_TUD)
-  
+
+
+# run again minmax!
+
+minmax(DSM_TUD)
+
+
