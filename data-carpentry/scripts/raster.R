@@ -68,5 +68,5 @@ nlyr(DSM_TUD)
 # plot a histogram of raster values
 
 ggplot() +
-  geom_histogram(data = )
+  geom_histogram(data = DSM_TUD_df, aes(`tud-dsm-5m`))
 
