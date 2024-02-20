@@ -21,5 +21,5 @@ str(buildings)
 
 buildings_polygons <- buildings$osm_polygons %>%
   st_transform(.,crs=28992)
-
+str()
 start_date
