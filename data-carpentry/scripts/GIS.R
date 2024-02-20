@@ -62,7 +62,7 @@ old_buildings_polygons <- buildings_polygons %>%
                         1,0)) %>%
   filter(isOld == 1)
 
-ggplot()
+ggplot(data = old_buildings_polygons)
 
 
 
