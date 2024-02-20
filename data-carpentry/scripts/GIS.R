@@ -66,6 +66,6 @@ ggplot(data = old_buildings_polygons) +
   geom_sf(colour = "red")
 
 old_buildings_polygons %>%
-  st_transform()
+  st_transform(.,crs=28992)
 
 
