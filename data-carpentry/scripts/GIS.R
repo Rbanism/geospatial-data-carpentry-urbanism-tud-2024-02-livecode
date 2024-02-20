@@ -69,3 +69,4 @@ old_buildings_polygons <- old_buildings_polygons %>%
   st_transform(.,crs=28992)
 
 
+
