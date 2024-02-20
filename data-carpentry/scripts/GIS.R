@@ -134,6 +134,6 @@ ggplot() +
                        begin = 0.6,
                        end = 1,
                        direction = -1,
-    ,option = "B")
+                       option = "B")
 
 
