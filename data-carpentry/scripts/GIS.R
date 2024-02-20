@@ -102,4 +102,4 @@ st_crs(buildings_centroids)
 
 ggplot(data = buildings_centroids) +
   geom_sf() +
-  geom
+  geom_sf()
