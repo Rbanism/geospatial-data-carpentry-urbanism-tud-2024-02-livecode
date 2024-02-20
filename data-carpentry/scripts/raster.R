@@ -164,4 +164,4 @@ ggplot() +
                        colors = terrain.colors(10)) +
   coord_equal()
 
-
+# Raster calculations
