@@ -129,4 +129,4 @@ ggplot() +
   geom_sf(data = buildings_polygons) +
   geom_sf(data = conservation_zones,
           aes(fill = n_old_buildings), 
-          )
+          colour = NA)
