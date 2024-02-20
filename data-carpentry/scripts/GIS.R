@@ -58,7 +58,7 @@ leaflet(buildings_polygons) %>%
 #### Part 2 - GIS functions
 
 old_buildings_polygons <- buildings_polygons %>%
-  mutate(isOld = if_else(start_date <= 1800,
+  mutate(isOld = if_else(start_date <= 1939,
                         1,0)) %>%
   filter(isOld == 1)
 
@@ -71,7 +71,7 @@ old_buildings_polygons <- old_buildings_polygons %>%
 
 # Buffer
 buffer <- st_buffer(x = old_buildings_polygons,
-                    dist = 100)
+                    dist = 500)
 
 ggplot(data = buffer) +
   geom_sf()
