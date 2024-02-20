@@ -79,6 +79,6 @@ DSM_TUD_df <- DSM_TUD_df %>%
 ggplot()+
   geom_bar(data = DSM_TUD_df, aes(fct_elevation))
 
-levels(DSM_TUD_df$)
+levels(DSM_TUD_df$fct_elevation)
 
 
