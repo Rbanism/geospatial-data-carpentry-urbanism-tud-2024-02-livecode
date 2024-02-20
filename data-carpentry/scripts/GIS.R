@@ -84,4 +84,5 @@ united_buffer <- st_union(buffer) %>%
 
 ggplot(data = united_buffer) +
   geom_sf()
+
 str(united_buffer)
