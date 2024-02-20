@@ -114,3 +114,4 @@ centroids_by_buffer <- intersected_buffer %>%
   group_by(ID) %>%
   summarise(n_centroids = sum(n))
 
+str(centroids_by_buffer)
