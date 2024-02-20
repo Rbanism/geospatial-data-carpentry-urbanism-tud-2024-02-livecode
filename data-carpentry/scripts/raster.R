@@ -48,5 +48,5 @@ crs(DSM_TUD, proj = TRUE)
 
 # calculate min and max values
 
-
+minmax(DSM_TUD)
   
