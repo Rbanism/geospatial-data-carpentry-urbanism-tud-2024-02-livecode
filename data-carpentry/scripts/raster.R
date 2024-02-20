@@ -86,5 +86,5 @@ levels(DSM_TUD_df$fct_elevation)
 
 # customize the bins!
 
-custom_bins <- 
+custom_bins <- c(-10, 0, 5, 100)
 
