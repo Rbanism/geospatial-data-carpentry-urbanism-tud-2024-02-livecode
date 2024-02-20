@@ -34,6 +34,7 @@ str(DSM_TUD_df)
 
 
 # let's plot!
+# we use the df object
 
 ggplot() +
-  geom_raster(data = )
+  geom_raster(data = DSM_TUD_df)
