@@ -43,5 +43,5 @@ ggplot() +
 
 # let's look at the CRS
 
-crs(DSM_TUD)
+crs(DSM_TUD, proj = TRUE)
   
