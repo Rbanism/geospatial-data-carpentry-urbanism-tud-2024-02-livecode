@@ -40,7 +40,7 @@ ggplot(data = buildings_polygons) +
 
 
 buildings_polygons <- buildings_polygons %>%
-  st_transform(.,crs = "4326")
+  st_transform(.,crs = 4326)
 
 library(leaflet)
 
