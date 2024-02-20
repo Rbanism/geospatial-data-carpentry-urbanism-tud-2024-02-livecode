@@ -121,3 +121,4 @@ str(centroids_by_buffer)
 
 conservation_zones <-  united_buffer %>%
   mutate(n_old_buildings = centroids_by_buffer$n_centroids)
+
