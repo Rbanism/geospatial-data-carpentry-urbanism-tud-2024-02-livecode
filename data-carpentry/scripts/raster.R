@@ -177,4 +177,5 @@ ggplot() +
                        colors = terrain.colors(10)) +
   coord_quickmap()
 
-# 
+# Multi-band rasters
+
