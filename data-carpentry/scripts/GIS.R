@@ -26,14 +26,14 @@ str(buildings_polygons)
 
 buildings_polygons$start_date <- as.numeric(
   buildings_polygons$start_date)
-buildings_polygons$new_date <- 
-  if_else(start_date < 1900, 1900, 
+buildings_polygons$new_date <- if_else(
+  start_date < 1900, 1900, 
           buildings_polygons$start_date)
 
 
 ggplot(data = buildings_polygons) +
-  geom_sf(aes(fill = new,
-              colour = start_date))
+  geom_sf(aes(fill = new_date,
+              colour = new_date))
 
 
 
