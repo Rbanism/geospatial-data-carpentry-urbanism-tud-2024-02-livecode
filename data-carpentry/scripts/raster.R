@@ -107,3 +107,8 @@ ggplot() +
   coord_quickmap()
 
 
+# Dealing with different CRS
+
+
+
+
