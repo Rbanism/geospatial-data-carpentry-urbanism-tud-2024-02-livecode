@@ -18,4 +18,4 @@ opq(bbox = bb) %>%
   osmdata_sf()
 
 #if the error is "Overpass unavailable without internet"
-assign()
+assign("has_internet_via_proxy",T)
