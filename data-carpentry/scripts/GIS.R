@@ -118,3 +118,5 @@ ggplot(data = centroids_by_buffer) +
   geom_sf()
 
 str(centroids_by_buffer)
+
+conver
