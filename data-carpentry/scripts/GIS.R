@@ -11,4 +11,4 @@ bb <- st_bbox(nominatim_polygon)
 bb
 
 
-
+library(osmdata)
