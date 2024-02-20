@@ -19,4 +19,4 @@ opq(bbox = bb) %>%
 
 #if the error is "Overpass unavailable without internet"
 assign("has_internet_via_proxy",TRUE,
-       environment(curl::))
+       environment(curl::has_internet))
