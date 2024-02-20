@@ -20,6 +20,4 @@ buildings <- opq(bbox = bb) %>%
 str(buildings)
 
 buildings_polygons <- buildings$osm_polygons %>%
-
-
-buildings_polygons<-  st_transform(buildings_polygons,crs=28992)
+  st_transform(.,crs=28992)
