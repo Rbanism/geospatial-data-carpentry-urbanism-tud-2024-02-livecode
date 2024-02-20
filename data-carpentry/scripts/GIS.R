@@ -26,7 +26,8 @@ str(buildings_polygons)
 
 buildings_polygons$start_date <- as.numeric(
   buildings_polygons$start_date)
-buildings_polygons$
+buildings_polygons$new_date <- 
+  if_else()
 
 
 ggplot(data = buildings_polygons) +
