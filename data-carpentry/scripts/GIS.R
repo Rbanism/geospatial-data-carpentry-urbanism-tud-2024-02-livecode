@@ -79,4 +79,4 @@ ggplot(data = buffer) +
 
 # Union
 united_buffer <- st_union(buffer)
-
+str(uni)
