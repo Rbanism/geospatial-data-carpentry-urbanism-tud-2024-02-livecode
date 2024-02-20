@@ -1,1 +1,2 @@
+install.
 library(nominatimlite)
