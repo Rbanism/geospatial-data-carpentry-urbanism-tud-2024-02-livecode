@@ -67,5 +67,6 @@ nlyr(DSM_TUD)
 
 # plot a histogram of raster values
 
-
+ggplot() +
+  geom_
 
