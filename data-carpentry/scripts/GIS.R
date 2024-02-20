@@ -125,5 +125,6 @@ conservation_zones <-  united_buffer %>%
 
 ### final output
 
-ggplot(0
-       )
+ggplot() +
+  geom_sf(data = ) +
+  geom_sf()
