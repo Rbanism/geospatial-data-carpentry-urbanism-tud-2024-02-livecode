@@ -13,5 +13,6 @@ bb
 #install.packages("osmdata")
 library(osmdata)
 
-opq(bb,)
+opq(bb) %>%
+  add
 
