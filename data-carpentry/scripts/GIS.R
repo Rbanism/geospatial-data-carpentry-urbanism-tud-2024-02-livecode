@@ -130,7 +130,7 @@ ggplot() +
   geom_sf(data = conservation_zones,
           aes(fill = n_old_buildings), 
           colour = NA) +
-  scale_fill_viridis_c(
+  scale_fill_viridis_c(alpha = 0,6
     ,option = "B")
 
 
