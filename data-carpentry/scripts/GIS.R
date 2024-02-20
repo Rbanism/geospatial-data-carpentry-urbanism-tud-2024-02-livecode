@@ -93,4 +93,5 @@ united_buffer <- united_buffer %>%
 
 # centroids
 
-buildings_centroids <- st_centroid(buildings_polygons)
+buildings_centroids <- st_centroid(buildings_polygons) %>%
+  st_transform()
