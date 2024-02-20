@@ -110,5 +110,7 @@ intersected_buffer <- st_intersection(
   buildings_centroids, united_buffer) %>%
   mutate(n = 1)
 
-centroids_by_buffer <- intersected_buffer
+centroids_by_buffer <- intersected_buffer %>%
+  group_by(ID) %>%
+  
 
