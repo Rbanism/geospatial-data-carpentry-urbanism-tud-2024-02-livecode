@@ -59,4 +59,6 @@ DSM_TUD <- setMinMax(DSM_TUD)
 
 minmax(DSM_TUD)
 
+# check the number of layers in a raster
 
+nlyr(DSM_TUD)
