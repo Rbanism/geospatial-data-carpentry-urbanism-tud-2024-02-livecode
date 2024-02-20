@@ -97,5 +97,8 @@ buildings_centroids <- st_centroid(old_buildings_polygons) %>%
   st_transform(., crs=28992)
 
 st_crs(buildings_centroids)
+
+
+
 ggplot(data = buildings_centroids) +
   geom_sf()
