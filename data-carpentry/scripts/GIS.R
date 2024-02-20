@@ -45,7 +45,8 @@ buildings_polygons <- buildings_polygons %>%
 library(leaflet)
 
 leaflet(buildings_polygons) %>%
-  addProviderTiles(providers$CartoDB.Positron)
+  addProviderTiles(
+    providers$CartoDB.Positron)
 
 
 
