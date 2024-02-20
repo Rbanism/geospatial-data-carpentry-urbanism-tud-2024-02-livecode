@@ -58,7 +58,7 @@ leaflet(buildings_polygons) %>%
 #### Part 2 - GIS functions
 
 old_buildings_polygons <- buildings_polygons %>%
-  mutate(isOld = if_else(start_date <= 1939,
+  mutate(isOld = if_else(start_date <= old_year,
                         1,0)) %>%
   filter(isOld == 1)
 
