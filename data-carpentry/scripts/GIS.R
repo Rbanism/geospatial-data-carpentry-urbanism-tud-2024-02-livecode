@@ -14,5 +14,6 @@ bb
 library(osmdata)
 
 opq(bb) %>%
-  add
+  add_osm_feature() %>%
+  osmda
 
