@@ -17,5 +17,6 @@ DSM_TUD
 
 
 # retrieve general info on the raster
+#it gives back values based on a random sample
 
 summary(DSM_TUD)
