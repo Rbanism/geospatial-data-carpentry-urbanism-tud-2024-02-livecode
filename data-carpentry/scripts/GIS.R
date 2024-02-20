@@ -29,7 +29,7 @@ buildings_polygons$start_date <- as.numeric(
 buildings_polygons$new_date <- if_else(
   start_date < 1900, 
   1900, #if true
-          buildings_polygons$start_date
+  buildings_polygons$start_date #if false
   )
 
 
