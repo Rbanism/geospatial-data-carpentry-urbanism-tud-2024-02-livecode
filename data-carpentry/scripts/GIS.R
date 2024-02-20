@@ -89,5 +89,5 @@ str(united_buffer)
 
 united_buffer <- united_buffer %>%
   mutate("ID" = as.factor(1:nrow(united_buffer))) %>%
-  st_transform()
+  st_transform(., crs)
   
