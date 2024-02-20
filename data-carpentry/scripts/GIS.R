@@ -41,3 +41,6 @@ ggplot(data = buildings_polygons) +
 
 
 
+
+
+
