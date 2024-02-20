@@ -4,4 +4,4 @@ library(tidyverse)
 library(sf)
 
 
-geo_ "Brielle"
+geo_lite_sf() "Brielle"
