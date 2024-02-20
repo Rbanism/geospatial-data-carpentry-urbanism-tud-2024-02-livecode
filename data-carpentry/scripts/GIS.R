@@ -19,4 +19,5 @@ buildings <- opq(bbox = bb) %>%
 
 str(buildings)
 
-<- buildings$osm_polygons
+buildings_polygons <- buildings$osm_polygons %>%
+  
