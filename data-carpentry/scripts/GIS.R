@@ -12,3 +12,6 @@ bb
 
 #install.packages("osmdata")
 library(osmdata)
+
+
+
