@@ -156,4 +156,5 @@ DTM_hill_EPSG28992_TUD_df <- as.data.frame(DTM_hill_EPSG28992_TUD,
 ggplot() +
   geom_raster(data = DTM_TUD_df,
               aes(x = x, y = y,
-                  fill = ))
+                  fill = `tud-dtm-5m`)) +
+  
