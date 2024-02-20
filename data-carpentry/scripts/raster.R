@@ -30,5 +30,5 @@ summary(values(DSM_TUD))
 
 DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 
-
+str(DSM_TUD_df)
 
