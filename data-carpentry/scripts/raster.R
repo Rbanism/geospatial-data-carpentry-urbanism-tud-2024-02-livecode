@@ -9,3 +9,6 @@ library(terra)
 describe("data/tud-dsm-5m.tif")
 
 
+# load raster data
+
+rast("data/tud-dsm-5m.tif")
