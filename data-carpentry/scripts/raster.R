@@ -103,5 +103,5 @@ ggplot() +
 
 ggplot() +
   geom_raster(data = DSM_TUD_df, aes(x=x, y=y, fill=fct_elevation_cb)) +
-  scale_fill_manual(values = terrain.colors())
+  scale_fill_manual(values = terrain.colors(3))
   
