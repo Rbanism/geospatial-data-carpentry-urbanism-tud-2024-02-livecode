@@ -41,5 +41,7 @@ ggplot() +
   scale_fill_viridis_c(option = "H") + #contrasting color scale
   coord_quickmap()
 
+# let's look at the CRS
+
 
   
