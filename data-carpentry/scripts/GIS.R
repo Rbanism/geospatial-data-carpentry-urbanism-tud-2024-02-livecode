@@ -86,3 +86,5 @@ ggplot(data = united_buffer) +
   geom_sf()
 
 str(united_buffer)
+
+united_buffer %>% united_buffer
