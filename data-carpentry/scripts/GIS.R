@@ -17,6 +17,4 @@ buildings <- opq(bbox = bb) %>%
   add_osm_feature(key = "building") %>%
   osmdata_sf()
 
-#if the error is "Overpass unavailable without internet"
-assign("has_internet_via_proxy",TRUE,
-       environment(curl::has_internet))
+str(buildings)
