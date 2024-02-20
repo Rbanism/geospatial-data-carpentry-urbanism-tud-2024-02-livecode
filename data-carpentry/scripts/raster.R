@@ -89,4 +89,4 @@ levels(DSM_TUD_df$fct_elevation)
 custom_bins <- c(-10, 0, 5, 100)
 
 DSM_TUD_df <- DSM_TUD_df %>%
-  
+  mutate(fct_elevation_cb = cut(`tud-dsm-5m`, breaks = custom_bins))
