@@ -1,2 +1,2 @@
-install.packages("nominatimlite")
+#install.packages("nominatimlite")
 library(nominatimlite)
