@@ -17,10 +17,16 @@ DSM_TUD
 
 
 # retrieve general info on the raster
-#it gives back values based on a random sample
+## it gives back values based on a random sample
 
 summary(DSM_TUD)
 
-
+## it gives back all the values of the raster
 
 summary(values(DSM_TUD))
+
+
+# transform the raster into df
+
+DSM_TUD_df <- as.data.frame()
+
