@@ -46,5 +46,7 @@ ggplot() +
 crs(DSM_TUD, proj = TRUE)
 
 
+# calculate min and max values
+
 
   
