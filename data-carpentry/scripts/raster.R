@@ -122,4 +122,4 @@ ggplot() +
   geom_raster(data = DTM_hill_TUD_df,
               aes(x = x, y = y,
                   alpha = `tud-dtm-5m-hill`)) +
-  
+  scale_fill_gradientn
