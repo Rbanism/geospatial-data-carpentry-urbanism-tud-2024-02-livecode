@@ -88,3 +88,4 @@ levels(DSM_TUD_df$fct_elevation)
 
 custom_bins <- c(-10, 0, 5, 100)
 
+
