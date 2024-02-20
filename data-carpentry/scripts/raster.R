@@ -138,4 +138,6 @@ ggplot() +
                   alpha = `tud-dtm-5m-hill`)) +
   coord_quickmap()
 
+# reproject a raster
 
+DTM_hill_EPSG28992_TUD
