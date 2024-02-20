@@ -114,6 +114,7 @@ centroids_by_buffer <- intersected_buffer %>%
   group_by(ID) %>%
   summarise(n_centroids = sum(n))
 
-ggplot()
+ggplot(data = centroids_by_buffer) +
+  geom_sf()
 
 str(centroids_by_buffer)
