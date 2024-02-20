@@ -165,3 +165,5 @@ ggplot() +
   coord_quickmap()
 
 # Raster calculations
+
+
