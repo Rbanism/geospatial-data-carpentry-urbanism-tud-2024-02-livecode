@@ -108,4 +108,4 @@ ggplot() +
 
 intersected_buffer <- st_intersection(
   buildings_centroids, united_buffer) %>%
-  mutate()
+  mutate(n = 1)
