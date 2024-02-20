@@ -23,7 +23,7 @@ buildings_polygons <- buildings$osm_polygons %>%
   st_transform(.,crs=28992)
 
 ggplot(data = buildings_polygons) +
-  geom_sf(fill="blue")
+  geom_sf(aes(fill = ))
 
 
 
