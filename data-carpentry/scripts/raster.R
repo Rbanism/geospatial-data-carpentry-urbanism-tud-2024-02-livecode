@@ -109,6 +109,7 @@ ggplot() +
 
 # Dealing with different CRS
 
-DTM_TUD <- rast("data/tud-dtm")
+DTM_TUD <- rast("data/tud-dtm-5m-hill.tif")
+
 
 
